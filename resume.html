@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Résumé — Niharika Pant</title>
+<meta name="description" content="Résumé for Niharika Pant — robotics researcher at Carnegie Mellon University.">
+<link rel="stylesheet" href="assets/style.css">
+<style>
+  .resume-frame-wrap {
+    border: 1px solid var(--border-dark);
+    border-radius: 14px;
+    overflow: hidden;
+    height: 82vh;
+    min-height: 500px;
+    background: var(--bg-dark-2);
+  }
+  .resume-frame-wrap iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
+  }
+  .resume-fallback {
+    padding: 60px 24px;
+    text-align: center;
+    color: var(--text-dark-dim);
+  }
+</style>
+</head>
+<body>
+
+<div class="shell">
+  <header class="site-nav">
+    <a href="index.html#top" class="wordmark">Niharika Pant</a>
+    <nav>
+      <a href="index.html#about">About</a>
+      <a href="index.html#projects">Projects</a>
+      <a href="index.html#experience">Experience</a>
+      <a href="index.html#skills">Skills</a>
+      <a href="index.html#contact">Contact</a>
+      <a href="resume.pdf" class="btn-resume">Download</a>
+    </nav>
+  </header>
+
+  <main style="padding: 40px 0 100px;">
+    <div class="section-eyebrow">Résumé</div>
+    <h1 style="font-size: clamp(1.8rem, 4vw, 2.4rem); margin-bottom: 28px;">Niharika Pant</h1>
+
+    <div class="resume-frame-wrap">
+      <iframe src="resume.pdf" title="Niharika Pant's résumé">
+        <p class="resume-fallback">
+          Your browser can't display the PDF inline.
+          <a href="resume.pdf" class="btn-primary" style="margin-top: 12px;">Download the résumé</a>
+        </p>
+      </iframe>
+    </div>
+
+    <div class="btn-row" style="margin-top: 28px;">
+      <a href="resume.pdf" class="btn-primary" download>Download PDF</a>
+      <a href="index.html#top" class="btn-ghost">&larr; Back to site</a>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div>&copy; 2026 Niharika Pant</div>
+    <a href="index.html#top">Back to home ↑</a>
+  </footer>
+</div>
+
+<script src="assets/interactions.js"></script>
+</body>
+</html>

@@ -1,19 +1,21 @@
 # Portfolio site — starter
 
 A single scrolling page (`index.html`) with anchor navigation — About,
-Projects, Experience, Skills, Contact — plus a custom `404.html`.
-Shares `assets/style.css`, `assets/cursor.js`, and `assets/interactions.js`.
+Projects, Experience, Skills, Contact — plus `resume.html` (an in-page
+résumé viewer with a download button) and a custom `404.html`.
+Shares `assets/style.css` and `assets/interactions.js`. Your résumé PDF
+is already included as `resume.pdf` at the root.
 
 ## What's already decided
 - One long page with a sticky nav; nav links jump to `#about`,
   `#projects`, etc. and the active section highlights as you scroll.
-- Palette: Indigo (#4B005F) + Lavender Veil (#F6D7FF) from your trend
-  reference, purple family only — the green tones were left out.
-- Custom cursor: a purple ring that follows the pointer and morphs into
-  a rounded-edge square over links.
-- Animations: a scrolling skills marquee near the top, and each section
-  fades/slides in as you scroll to it (all respect
-  `prefers-reduced-motion` and are skipped on touch devices).
+- Palette: a light Ivory background with Indigo and Sea Breeze accents,
+  and Pear used for small tag/label text.
+- Buttons go bold and lift slightly on hover.
+- Small sparkle icons next to section numbers, and a hand-drawn
+  scribble underline under a couple of key phrases in the hero.
+- Scroll-in animation for each section as you reach it (respects
+  `prefers-reduced-motion`).
 - Structure takes cues from a reference site you liked
   (stat callouts up top, single-page anchor nav, timeline-style
   experience section) without copying its content or exact design.
@@ -21,9 +23,11 @@ Shares `assets/style.css`, `assets/cursor.js`, and `assets/interactions.js`.
 ## What still needs your input
 Search each section in `index.html` for `[bracketed placeholder text]`
 — project write-ups, your own About paragraph, specific skills/tools,
-and a couple of experience bullet points. Also replace `resume.pdf`
-and the `mailto:`/GitHub/LinkedIn placeholders in the nav and contact
-section.
+and a couple of experience bullet points. Also replace the
+`mailto:`/GitHub placeholders in the nav and contact section (LinkedIn
+is already filled in). Swap `resume.pdf` for a newer version any time
+by replacing that file — `resume.html` and the nav/hero buttons all
+point to it automatically.
 
 ## Deploying to GitHub Pages
 1. Create a new repo on GitHub — if you want it at `<username>.github.io`,
@@ -31,9 +35,7 @@ section.
    will live at `<username>.github.io/<repo-name>`.
 2. Put these files at the repo root (or push them as-is if this folder
    *is* your repo).
-3. Add your real `resume.pdf` next to `index.html` if you want the
-   résumé links to work.
-4. Commit and push:
+3. Commit and push:
    ```
    git init
    git add .
@@ -42,9 +44,9 @@ section.
    git remote add origin https://github.com/<username>/<repo-name>.git
    git push -u origin main
    ```
-5. On GitHub: Settings → Pages → Source → deploy from the `main` branch,
+4. On GitHub: Settings → Pages → Source → deploy from the `main` branch,
    root folder. GitHub gives you a live URL in a minute or two.
-6. `404.html` is picked up automatically by GitHub Pages for any
+5. `404.html` is picked up automatically by GitHub Pages for any
    broken link on the site.
 
 ## Local preview
