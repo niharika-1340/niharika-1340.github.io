@@ -54,10 +54,12 @@
     link.addEventListener('mouseenter', function () {
       hovered = link;
       ring.classList.add('pill');
+      link.classList.add('cursor-target');
     });
     link.addEventListener('mouseleave', function () {
       hovered = null;
       ring.classList.remove('pill');
+      link.classList.remove('cursor-target');
     });
   });
 })();
