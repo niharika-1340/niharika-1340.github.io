@@ -13,26 +13,26 @@
   --blue: #4b63b6;
   --sea-breeze: #7cb8c0;
 
-  /* dark background — deep navy, derived from Blue */
-  --bg-dark: #12142c;
-  --bg-dark-2: #1b1e3d;
-  --bg-dark-3: #262a4f;
-  --text-dark: #fffeec;
-  --text-dark-dim: #b9bcd9;
+  /* base background — kept light for readability, per request */
+  --bg-dark: #fffeec;
+  --bg-dark-2: #f4f1d6;
+  --bg-dark-3: #e9e4bd;
+  --text-dark: #14162e;
+  --text-dark-dim: #52557a;
 
   /* kept for any future light section */
   --bg-light: #fffeec;
-  --bg-light-2: #f5f2d8;
-  --text-light: #12142c;
-  --text-light-dim: #4a4d6e;
+  --bg-light-2: #f4f1d6;
+  --text-light: #14162e;
+  --text-light-dim: #52557a;
 
   /* shared accents */
   --accent: #a88aed;
   --accent-2: #7cb8c0;
-  --terracotta: #cbd83b; /* Pear, used for tags/labels */
+  --terracotta: #8a8f1f; /* darkened Pear, for legible text on a light background */
 
-  --border-dark: rgba(255, 254, 236, 0.14);
-  --border-light: rgba(18, 20, 44, 0.15);
+  --border-dark: rgba(20, 22, 46, 0.14);
+  --border-light: rgba(20, 22, 46, 0.14);
 
   --serif: 'Fraunces', Georgia, serif;
   --sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -68,7 +68,7 @@ img { max-width: 100%; display: block; }
 
 ::selection {
   background: var(--accent);
-  color: var(--bg-dark);
+  color: var(--text-dark);
 }
 
 /* ---------- layout shell ---------- */
@@ -87,7 +87,7 @@ header.site-nav {
   align-items: center;
   justify-content: space-between;
   padding: 20px 0;
-  background: rgba(28, 10, 38, 0.72);
+  background: rgba(255, 254, 236, 0.82);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   margin: 0 -28px;
@@ -122,7 +122,7 @@ header.site-nav {
 }
 
 .site-nav nav a.btn-resume {
-  color: var(--bg-dark);
+  color: var(--text-dark);
   background: var(--accent-2);
   padding: 8px 16px;
   border-radius: 999px;
@@ -224,7 +224,7 @@ body.light-mode p.lede { color: var(--text-light-dim); }
   display: inline-block;
 }
 
-.btn-primary { background: var(--accent); color: var(--bg-dark); }
+.btn-primary { background: var(--accent); color: var(--text-dark); }
 .btn-ghost { border: 1px solid var(--border-dark); }
 
 /* ---------- scroll reveal ---------- */
