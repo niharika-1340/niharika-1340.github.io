@@ -29,7 +29,7 @@
   /* shared accents */
   --accent: #a88aed;
   --accent-2: #7cb8c0;
-  --terracotta: #8a8f1f; /* darkened Pear, for legible text on a light background */
+  --terracotta: #7a9a00; /* brighter Pear-derived green, still legible on light bg */
 
   --border-dark: rgba(20, 22, 46, 0.14);
   --border-light: rgba(20, 22, 46, 0.14);

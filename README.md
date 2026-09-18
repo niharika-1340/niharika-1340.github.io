@@ -1,10 +1,10 @@
 # Portfolio site — starter
 
 A single scrolling page (`index.html`) with anchor navigation — About,
-Projects, Experience, Skills, Résumé, Contact — plus a custom `404.html`.
-Shares `assets/style.css` and `assets/interactions.js`. Your résumé PDF
-is already included as `resume.pdf` at the root, embedded inline in the
-Résumé section.
+Projects, Experience, Skills, Contact — plus `resume.html` (a dedicated
+page with the PDF embedded inline and a download button) and a custom
+`404.html`. Shares `assets/style.css` and `assets/interactions.js`.
+Your résumé PDF is already included as `resume.pdf` at the root.
 
 ## What's already decided
 - One long page with a sticky nav; nav links jump to `#about`,
@@ -26,7 +26,7 @@ Search each section in `index.html` for `[bracketed placeholder text]`
 and a couple of experience bullet points. Also replace the
 `mailto:`/GitHub placeholders in the nav and contact section (LinkedIn
 is already filled in). Swap `resume.pdf` for a newer version any time
-by replacing that file — the embedded viewer and download buttons all
+by replacing that file — `resume.html` and the nav/hero buttons all
 point to it automatically.
 
 ## Deploying to GitHub Pages
