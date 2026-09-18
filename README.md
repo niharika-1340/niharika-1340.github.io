@@ -4,7 +4,7 @@ A single scrolling page (`index.html`) with anchor navigation — About,
 Projects, Experience, Skills, Contact — plus `resume.html` (a dedicated
 page with the PDF embedded inline and a download button) and a custom
 `404.html`. Shares `assets/style.css` and `assets/interactions.js`.
-Your résumé PDF is already included as `resume.pdf` at the root.
+Your resume PDF is already included as `resume.pdf` at the root.
 
 ## What's already decided
 - One long page with a sticky nav; nav links jump to `#about`,
