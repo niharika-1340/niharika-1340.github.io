@@ -1,37 +1,38 @@
 /* ============================================================
    Niharika Pant — portfolio design tokens
-   Palette: Cherry Rose, Light Yellow, Lime Cream, Strong Cyan
+   Palette: Pear, Indigo, Ivory, Blue, Sea Breeze
    ============================================================ */
 
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap');
 
 :root {
   /* source palette */
-  --cherry-rose: #b5185f;
-  --light-yellow: #feffe0;
-  --lime-cream: #d0e86e;
-  --strong-cyan: #35c1c2;
+  --pear: #cbd83b;
+  --indigo: #a88aed;
+  --ivory: #fffeec;
+  --blue: #4b63b6;
+  --sea-breeze: #7cb8c0;
 
-  /* dark background — deep teal, derived to sit behind the palette above */
-  --bg-dark: #0e2b2b;
-  --bg-dark-2: #163c3c;
-  --bg-dark-3: #1f4d4d;
-  --text-dark: #feffe0;
-  --text-dark-dim: #b9c7ae;
+  /* dark background — deep navy, derived from Blue */
+  --bg-dark: #12142c;
+  --bg-dark-2: #1b1e3d;
+  --bg-dark-3: #262a4f;
+  --text-dark: #fffeec;
+  --text-dark-dim: #b9bcd9;
 
   /* kept for any future light section */
-  --bg-light: #feffe0;
-  --bg-light-2: #f4f5cf;
-  --text-light: #163c3c;
-  --text-light-dim: #3c5252;
+  --bg-light: #fffeec;
+  --bg-light-2: #f5f2d8;
+  --text-light: #12142c;
+  --text-light-dim: #4a4d6e;
 
   /* shared accents */
-  --accent: #35c1c2;
-  --accent-2: #d0e86e;
-  --terracotta: #d94f8a; /* brightened cherry rose, used for tags/labels */
+  --accent: #a88aed;
+  --accent-2: #7cb8c0;
+  --terracotta: #cbd83b; /* Pear, used for tags/labels */
 
-  --border-dark: rgba(254, 255, 224, 0.14);
-  --border-light: rgba(22, 60, 60, 0.15);
+  --border-dark: rgba(255, 254, 236, 0.14);
+  --border-light: rgba(18, 20, 44, 0.15);
 
   --serif: 'Fraunces', Georgia, serif;
   --sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
